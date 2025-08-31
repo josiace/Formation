@@ -1,98 +1,92 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3101720380274748" crossorigin="anonymous"></script>
-    <!-- Encodage et responsive design -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Titre unique et descriptif -->
-    <title>Contactez-nous - SETG-Tech</title>
-    <meta name="description" content="Contactez SETG-Tech pour toute question sur nos formations ou commandes d'applications mobiles. Nous sommes à votre écoute." />
-    <meta name="keywords" content="contact SETG-Tech, formation application mobile, support client, assistance" />
-    <meta name="author" content="SETG-Tech" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contactez-nous pour toute question ou demande d'information. Nous sommes là pour vous aider !" />
+    <meta name="keywords" content="Contact SETG-Tech, support, assistance, demande d'information" />
+    
     <!-- Open Graph -->
-    <meta property="og:title" content="Contactez-nous - SETG-Tech" />
-    <meta property="og:description" content="Contactez SETG-Tech pour toute question sur nos formations ou commandes d'applications mobiles. Nous sommes à votre écoute." />
+    <meta property="og:title" content="Contact Us - SETG-Tech" />
+    <meta property="og:description" content="Contactez-nous pour toute question ou demande d'information. Nous sommes là pour vous aider !" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.setg-tech.com/contact.html" />
-    <meta property="og:image" content="https://www.setg-tech.com/images/og-image-contact.jpg" />
-
+    <meta property="og:url" content="https://formationsetg.netlify.app/contact.html" />
+    <meta property="og:image" content="https://www.setg-tech.com/images/contact-og-image.jpg" />
+    
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Contactez-nous - SETG-Tech" />
-    <meta name="twitter:description" content="Contactez SETG-Tech pour toute question sur nos formations ou commandes d'applications mobiles. Nous sommes à votre écoute." />
-    <meta name="twitter:image" content="https://www.setg-tech.com/images/twitter-image-contact.jpg" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
+    <meta name="twitter:title" content="Contact Us - SETG-Tech" />
+    <meta name="twitter:description" content="Contactez-nous pour toute question ou demande d'information. Nous sommes là pour vous aider !" />
+    <meta name="twitter:image" content="https://www.setg-tech.com/images/contact-twitter-image.jpg" />
+    <meta name="twitter:url" content="https://formationsetg.netlify.app/contact.html" />
+    
     <!-- Canonical -->
-    <link rel="canonical" href="https://www.setg-tech.com/contact.html" />
-
-    <!-- CSS principal -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="canonical" href="https://formationsetg.netlify.app/contact.html" />
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        button {
+            background: #0078d4;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation principale -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="formations.html">Formations</a></li>
-                <li><a href="temoignages.html">Témoignages</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html" aria-current="page">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
-    <main>
-        <h1>Contactez SETG-Tech</h1>
-        <p>Vous avez une question, une demande particulière ou souhaitez commander une application ? Utilisez le formulaire ci-dessous ou contactez-nous directement.</p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-        <!-- Formulaire de contact simple -->
-        <form action="#" method="POST" aria-label="Formulaire de contact SETG-Tech">
-            <label for="nom">Nom complet</label><br />
-            <input type="text" id="nom" name="nom" required placeholder="Votre nom complet" /><br />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-            <label for="email">Adresse email</label><br />
-            <input type="email" id="email" name="email" required placeholder="votre.email@example.com" /><br />
-
-            <label for="telephone">Téléphone</label><br />
-            <input type="tel" id="telephone" name="telephone" placeholder="+223 70 00 00 00" /><br />
-
-            <label for="message">Message</label><br />
-            <textarea id="message" name="message" rows="5" required placeholder="Votre message ici..."></textarea><br />
-
-            <button type="submit" class="btn-primary">Envoyer</button>
+            <button type="submit">Send Message</button>
         </form>
-
-        <!-- Informations complémentaires -->
-        <section aria-label="Informations de contact direct">
-            <h2>Contact direct</h2>
-            <p>Téléphone : <a href="tel:++223 69549391">+223 69549391</a></p>
-            <p>Email : <a href="mailto:afletonoudouprince5@gmail.com"</a></p>
-            <p>WhatsApp : <a href="https://wa.me/0022369549391" target="_blank" rel="noopener">+22369549391</a></p>
-        </section>
-    </main>
-
-    <!-- Pied de page -->
-    <footer role="contentinfo">
-        <div class="footer-content">
-            <p>© 2025 SETG-Tech. Tous droits réservés.</p>
-            <nav aria-label="Navigation secondaire">
-                <a href="index.html">Accueil</a> | 
-                <a href="apropos.html">À propos</a> | 
-                <a href="formations.html">Formations</a> | 
-                <a href="temoignages.html">Témoignages</a> | 
-                <a href="faq.html">FAQ</a> | 
-                <a href="contact.html">Contact</a> | 
-                <a href="politique.html">Politique de confidentialité</a>
-            </nav>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
