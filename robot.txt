@@ -4,4 +4,4 @@ Disallow: /private/
 Disallow: /tmp/
 Allow: /
 
-Sitemap: https://www.setg-tech.com/sitemap.xml
+Sitemap: https://formationsetg.netlify.app/sitemap.xml
