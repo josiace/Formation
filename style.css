@@ -185,13 +185,16 @@ blockquote {
     font-style: italic;
     color: #555;
 }
-.simple{
-        background: blue#3D4DFF78;
-    }
+
+/* Classe simple */
+.simple {
+    background: rgba(61, 77, 255, 0.47); /* Couleur bleue avec transparence */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
-    .simple{
-        background: blue#3D4DFF78;
+    .simple {
+        background: rgba(61, 77, 255, 0.47); /* Couleur bleue avec transparence */
     }
     header nav ul {
         flex-direction: column;
