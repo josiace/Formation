@@ -1,0 +1,25 @@
+{
+  "name": "SETG-Tech - Formation Création Applications Mobiles",
+  "short_name": "SETG-Tech",
+  "description": "Formation en création d'applications mobiles adaptée au contexte africain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["education", "technology", "business"],
+  "lang": "fr",
+  "scope": "/"
+}
+
+        </div>
+    </footer>
+</body>
+</html>
