@@ -1,0 +1,207 @@
+/* style.css - SETG-Tech */
+
+/* Reset basique */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9f9;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Liens */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+/* Boutons */
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 10px 5px 20px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: #005fa3;
+    color: #fff;
+    border: none;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #004080;
+    outline: none;
+}
+.btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #999;
+    outline: none;
+}
+
+/* Header et navigation */
+header {
+    background-color: #004080;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: 600;
+    padding: 6px 12px;
+}
+
+header nav ul li a[aria-current="page"] {
+    border-bottom: 2px solid #ffcc00;
+    font-weight: 700;
+}
+
+/* Main content */
+main {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #005fa3;
+}
+
+/* Paragraphes */
+p {
+    margin-bottom: 15px;
+}
+
+/* Listes */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Formulaires */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus {
+    border-color: #005fa3;
+    outline: none;
+    box-shadow: 0 0 5px #005fa3;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer .footer-content nav a {
+    color: #ffcc00;
+    margin: 0 5px;
+}
+
+footer .footer-content nav a:hover,
+footer .footer-content nav a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+/* Blockquote style for testimonials */
+blockquote {
+    border-left: 5px solid #005fa3;
+    padding-left: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+.simple{
+        background: blue#3D4DFF78;
+    }
+/* Responsive design */
+@media (max-width: 768px) {
+    .simple{
+        background: blue#3D4DFF78;
+    }
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav ul li {
+        margin: 8px 0;
+    }
+    main {
+        padding: 20px;
+        margin: 15px;
+    }
+}
